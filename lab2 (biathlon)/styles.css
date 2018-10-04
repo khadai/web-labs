@@ -1,0 +1,77 @@
+.navbar li {
+    border: solid 5px transparent;
+    border-radius: 5px;
+    height: 40px;
+    float: left;
+    list-style: none;
+    width: 100px;
+    margin: 5px;
+    background-color: ghostwhite;
+}
+
+nav{
+	width: 100%;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    float: left;    
+}
+
+#logo{
+	height: 50px;
+	width: 50px;
+	float: right;
+}
+
+#main{
+	background-color: blue ;
+}
+
+#main_photo{
+	width: 97%;
+	border: solid 10px gainsboro;
+	margin-left: 9px
+}
+
+footer{
+	width: 100%;
+	float: left;
+	background: gray;
+}
+
+footer p{
+	margin-left: 40px
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body {
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.article{
+	width: 95%;
+	margin-left: 40px;
+}
+
+h2 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+hr{
+     border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
