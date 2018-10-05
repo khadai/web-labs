@@ -1,3 +1,16 @@
+/* The animation code */
+@keyframes navigation {
+    from {background-color: grey}
+    to {background-color: ghostwhite;}
+}
+
+@keyframes moving {
+     0% {margin-right: 0;}
+   50%{margin-right:100%;}
+   100%{margin-right:0;}
+}
+
+
 .navbar li {
     border: solid 5px transparent;
     border-radius: 5px;
@@ -7,12 +20,45 @@
     width: 100px;
     margin: 5px;
     background-color: ghostwhite;
+    animation-name: navigation;
+    animation-duration: 1s;
+    transition: width 1s;
+}
+
+.navbar li:hover{
+  width:  110px;
+  background-color: grey;
 }
 
 nav{
-	width: 100%;
+	width: 99%;
 }
 
+div .h1-news{
+  text-align: center;
+}
+
+.news{
+  width: 30%;
+  float: left;
+  padding: 1.6%
+}
+
+.news img{
+  width: 92%;
+  border: solid 10px gainsboro;
+}
+
+table, th, td {
+  width: 97%;
+  border: solid 10px gainsboro;
+  border-collapse: collapse;
+  width: 
+}
+
+.news p{
+  margin: 2%;
+}
 
 .dropdown-content {
     display: none;
@@ -29,34 +75,26 @@ nav{
 
 #logo{
 	height: 50px;
-	width: 50px;
 	float: right;
 }
 
 #main{
-	background-color: blue ;
+	background-color: DodgerBlue  ;
+}
+
+#news{
+    background-color: blue ;
 }
 
 #main_photo{
 	width: 97%;
 	border: solid 10px gainsboro;
-	margin-left: 9px
-}
-
-footer{
-	width: 100%;
-	float: left;
-	background: gray;
-}
-
-footer p{
-	margin-left: 40px
 }
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 
 body {
-  width: 100%;
+  width: 99%;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -69,9 +107,42 @@ h2 {
   font-size: 2.0rem;
   font-weight: bold;
   color: #2c3e50;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
+@keyframes slidein {
+    from {margin-left: 100%;width: 300%; }
+    to {margin-left: 0%;width: 100%;}
+  }
+
+h1{
+   font-size: 3.0rem;
+  font-weight: bold;
+  color: #2c3e50;
+
+}
+
+
+
+h3{
+   font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+
 hr{
-     border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+     border: 0; height: 1px;
+     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+footer{
+  width: 100%;
+  float: left;
+  background: gray;
+}
+
+footer p{
+  margin-left: 40px
 }
 
