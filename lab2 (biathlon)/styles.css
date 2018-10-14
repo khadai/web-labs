@@ -1,28 +1,19 @@
 /* The animation code */
-@keyframes navigation {
+/*@keyframes navigation {
   from {background-color: grey}
   to {background-color: ghostwhite;}
-}
+}*/
 
-@keyframes moving {
+/*@keyframes moving {
  0% {margin-right: 0;}
  50%{margin-right:100%;}
  100%{margin-right:0;}
-}
+}*/
 
 @keyframes slidein {
   from {margin-left: 100%;width: 300%; }
   to {margin-left: 0%;width: 100%;}
 }
-
-@keyframes ani_logo {
-  from {width: 100px; height: 50px}
-  50%{transform: scale(2);}
-  to {width: 200px; height: 100px;} 
-  
-}  
-
-
 
 .navbar li {
   border: solid 5px transparent;
@@ -33,16 +24,12 @@
   width: 100px;
   margin: 5px;
   background-color: ghostwhite;
-  animation-name: navigation;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  transition: width 1s;
 }
-
+/*
 .navbar li:hover{
   width:  110px;
   background-color: grey;
-}
+}*/
 
 nav{
 	width: 99%;
@@ -53,7 +40,7 @@ div .h1-news{
 }
 
 .news{
-  width: 30%;
+  width: 25%;
   float: left;
   padding: 1.6%
 }
@@ -89,10 +76,8 @@ table, th, td {
 
 #logo{
 	height: 50px;
-	float: right;
-  animation-name: ani_logo;
-  animation-duration: 1s;
-  width 2s, height 4s}
+  width: 66px;
+	float: right;}
 
   #main{
    background-color: DodgerBlue;
