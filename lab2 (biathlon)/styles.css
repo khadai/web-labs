@@ -1,28 +1,42 @@
 /* The animation code */
 @keyframes navigation {
-    from {background-color: grey}
-    to {background-color: ghostwhite;}
+  from {background-color: grey}
+  to {background-color: ghostwhite;}
 }
 
 @keyframes moving {
-     0% {margin-right: 0;}
-   50%{margin-right:100%;}
-   100%{margin-right:0;}
+ 0% {margin-right: 0;}
+ 50%{margin-right:100%;}
+ 100%{margin-right:0;}
 }
+
+@keyframes slidein {
+  from {margin-left: 100%;width: 300%; }
+  to {margin-left: 0%;width: 100%;}
+}
+
+@keyframes ani_logo {
+  from {width: 100px; height: 50px}
+  50%{transform: scale(2);}
+  to {width: 200px; height: 100px;} 
+  
+}  
+
 
 
 .navbar li {
-    border: solid 5px transparent;
-    border-radius: 5px;
-    height: 40px;
-    float: left;
-    list-style: none;
-    width: 100px;
-    margin: 5px;
-    background-color: ghostwhite;
-    animation-name: navigation;
-    animation-duration: 1s;
-    transition: width 1s;
+  border: solid 5px transparent;
+  border-radius: 5px;
+  height: 40px;
+  float: left;
+  list-style: none;
+  width: 100px;
+  margin: 5px;
+  background-color: ghostwhite;
+  animation-name: navigation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  transition: width 1s;
 }
 
 .navbar li:hover{
@@ -61,29 +75,31 @@ table, th, td {
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    padding: 12px 16px;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-    float: left;    
+  display: block;
+  float: left;    
 }
 
 #logo{
 	height: 50px;
 	float: right;
-}
+  animation-name: ani_logo;
+  animation-duration: 1s;
+  width 2s, height 4s}
 
-#main{
-	background-color: DodgerBlue  ;
-}
+  #main{
+   background-color: DodgerBlue;
+ }
 
-#news{
-    background-color: blue ;
+ #news{
+  background-color: blue ;
 }
 
 #main_photo{
@@ -111,31 +127,26 @@ h2 {
   animation-name: slidein;
 }
 
-@keyframes slidein {
-    from {margin-left: 100%;width: 300%; }
-    to {margin-left: 0%;width: 100%;}
-  }
+
 
 h1{
-   font-size: 3.0rem;
-  font-weight: bold;
-  color: #2c3e50;
-
+ font-size: 3.0rem;
+ font-weight: bold;
+ color: #2c3e50;
 }
 
-
-
 h3{
-   font-size: 1.5rem;
-  font-weight: bold;
-  color: #2c3e50;
+ font-size: 1.5rem;
+ font-weight: bold;
+ color: #2c3e50;
 }
 
 
 hr{
-     border: 0; height: 1px;
-     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+ border: 0; height: 1px;
+ background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
 footer{
   width: 100%;
   float: left;
