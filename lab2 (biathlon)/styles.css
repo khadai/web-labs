@@ -12,6 +12,7 @@ h2 {
   animation-name: slidein;
 }
 
+<<<<<<< HEAD:lab2 (biathlon)/css/styles.css
 hr{
  border: 0; height: 1px;
  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
@@ -21,6 +22,8 @@ hr{
   width: 100%;
 }*/
 
+=======
+>>>>>>> parent of f56e733... added lab6 and lab7:lab2 (biathlon)/styles.css
 footer{
   background: gray;
   position: inherit;
@@ -42,17 +45,4 @@ footer{
   bottom: 0;
 }*/
 
-.fans-appeal .time {
-  color:blue; 
-  float: left;
-}
-
-.fans-appeal h5{
-  font-style: italic;
-}
-
-.fans-appeal .nick{
-  color:blue;
-   float: right;
-}
 
