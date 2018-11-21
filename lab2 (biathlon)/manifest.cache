@@ -2,24 +2,23 @@ CACHE MANIFEST
 # version 1.0
 
 CACHE:
-css/styles.css
-images/logo_img.png
-images/main_img.jpg
-images/mapp.png
-images/error.jpg
-contacts.html
-error.html
-index.html
-calendar.html 
-mass.html
-fans.html
 js/bootstrap.min.js
 js/popper.min.js
 js/jquery-3.3.1.slim.min.js
 css/bootstrap.min.css
-
+css/styles.css
+images/logo_img.png
+images/main_img.jpg
+images/map.png
+images/error.jpg
+contacts.html
+error.html
+index.html
+fans.html
 
 FALLBACK:
 /news.html /error.html
 /admin.html /error.html
+/mass.html /error.html
+/calendar.html /error.html
 

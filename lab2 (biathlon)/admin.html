@@ -3,11 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>BIATHLON-Admin</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <header>
@@ -49,7 +46,7 @@
 
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<img id="logo"  src="logo_img.png" height="50px" width="66px">
+					<img id="logo"  src="images/logo_img.png" height="50px" width="66px">
 				</ul>
 			</div>	
 		</div>
@@ -62,48 +59,25 @@
 	<br>
 	<div class="container">
 
-<<<<<<< HEAD
-		<div class="row" >
-			<div class="col-sm-6 col-xs-12"style="display: inline;" >
-				<img src="images/plchlder_pic.png" style="width: 100%; height: 100%" >
-=======
+<script src="js/adminActivity.js"></script>
+
 		<div class="row">
-			<div class="col-sm-6 col-xs-12" >
-				<img src="plchlder_pic.png" style="width: 90%; float: left;" >
->>>>>>> parent of f56e733... added lab6 and lab7
-			</div>
-			<div class=" col-sm-6 col-xs-12" style="display: inline;">
-				<button type="button" class="btn btn-secondary upload-image" >Upload picture...</button>
-			</div>
-		</div>
-
-			<br>
-
-<<<<<<< HEAD
-		<div class="row" >
-			<form class="col-sm-6 col-xs-12" style="display: inline;">
-				<input type="email" class="form-control news-title-area" id="newsTitle" placeholder="News title"><br>
+			<form class="col-sm-6 col-xs-12">
+				<h5 class="display-5">Upload picture...</h5>
+              <input type="file" id="fileform" class="form-control-file">
+				<br>
+				<input type="text" class="form-control news-title-area" id="newsTitle" placeholder="News title"><br>
 				<textarea class="form-control news-text-area" id="newsText" rows="3" placeholder="News text"></textarea>
 			</form>
-			<div class=" col-sm-6 col-xs-12" style="display: inline;"> 
-				<button type="button" class="btn btn-primary send-news" onclick="validateForm();">Send news</button>
-=======
-		<div class="row">
-			<div class="col-sm-6 col-xs-12">
-				<div >
-					<textarea placeholder="News title" class="news-title-area"></textarea>
-				</div><br>
-				<div >
-					<textarea placeholder="News text" class="news-text-area"></textarea>
-				</div>
-			</div>
 			<div class=" col-sm-6 col-xs-12" > 
-				<button type="button" class="btn btn-primary send-news">Send news</button>
->>>>>>> parent of f56e733... added lab6 and lab7
+				<button id="submit-btn" type="button" class="btn btn-primary send-news" >Send news</button>
 			</div>
 		</div>
 
 	</div>	
+<script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
 </body>
 <br>
 <footer>
