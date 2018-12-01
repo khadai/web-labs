@@ -1,0 +1,30 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "\"RESTfull api for biathlon website\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khadai/web-labs.git"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Mykhailo Khadai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khadai/web-labs/issues"
+  },
+  "homepage": "https://github.com/khadai/web-labs",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "sqlite3": "^4.0.4"
+  }
+}

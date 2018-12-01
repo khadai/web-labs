@@ -55,57 +55,39 @@
 
 </header>
 
-<body onload="load_data();">
-	<br>
-	<div class="container">
-
+<body>
+	<div class="container mt-4">
 		<h1>Appeal from fans</h1>
 		<div id="appeals">
-		<div  class="fans-appeal">
-			<h5><cite><br>Good day.<br>
-
-			I can not stand the winter, but every year I look forward to it, because with its arrival a new biathlon season starts, which unfortunately lasts only four months. Biathlon is not just my love, it is my passion that my family members do not understand. I even wanted to call my cat Fourcade.<br>
-
-			What is biathlon? This is perhaps the most entertaining sport that in our country is loved and watched on a par with football and hockey. I think it’s not worth explaining the essence and rules of this sport - if you read this review, then you know them. The competitions of shooting skiers attract even women and children to TV screens.<br><br></cite></h5>
-
-			<h6 class="time">14.10.2018 10:00</h6>
-			<h6 class="nick">LoliBomb777</h6><br><hr>
 		</div>
-
-		<div class="fans-appeal">
-			<h5><cite><br>
-				Hi,<br>
-				My love of biathlon was born 7 years ago with the Winter Olympics in Vancouver. I accidentally stumbled upon a broadcast of a male mass start, in which our Evgeny Ustyugov won. Since then, biathlon has thoroughly entered my life, and not a single race goes without my attention. During this time, almost all the regular participants in the World Cup have become like relatives to me - the highlights of their biography are well known to me. I am happy about the victories of not only Russian biathletes, but also their rivals, if they are nice to me. In addition to the World Cup, the IBU Cup races are of no less interest to me (the second squad teams compete here).<br>
-
-				I watch the main part of biathlon competitions on sports channels, but they don’t broadcast the IBU Cup, so there is Siwidata for biathlon fans. Siwidata is an interactive panel with which you can follow races in on-line mode, and you can also find out the basic statistical information about all existing biathletes.<br><br></cite></h5>
-
-				<h6 class="time">24.01.2008 23:00</h6>
-				<h6 class="nick">B1aTlon4iKk</h6><br><hr>
-		</div>
-		</div>
-				<script src="js/fansActivity.js"></script>
+		<div class="row mt-5">
+			<div class=" col-sm-6 col-xs-12">
 				<div class="row">
-					
-					<div class=" col-sm-6 col-xs-12"><br><br>
-						<textarea id="appealText" placeholder="Add your appeal..." style="width: 100%; height: 250px" class="form-control"></textarea>
-					</div>
-					<div class=" col-sm-6 col-xs-12" style="float: left;">
-						<button type="button" class="btn btn-success btn-lg send-fan-appeal" onclick="send();">Send</button>		
-					</div>
+					<textarea id="appealText" placeholder="Add your appeal..." style="width: 100%; height: 250px" class="form-control"></textarea>
 				</div>
-
-
-
-			</div>	<br>
-			<script src="js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-			<script src="js/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-			<script src="js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+				<div class="row mt-2">
+					<input type="text" id="authorText" class="form-control" placeholder="Author name">
+				</div>
+			</div>
+			<div class=" col-sm-6 col-xs-12" style="float: left;">
+				<button type="button" class="btn btn-success btn-lg send-fan-appeal" onclick="add()">Add</button>
+			</div>
+		</div>
+	</div>
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	<script src="js/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+	<script src="js/fansActivity.js"></script>
 </body>
 
-		<footer  style="background-color:gray;">
-			<div class="container">
-				<p>©2018 </p>
-				<p>Mykhailo Khadai for LP NU</p></div><br>
-			</footer>
+<footer  style="background-color:gray;" class="mt-4">
+	<div class="container p-2">
+		<p>©2018 </p>
+		<p>Mykhailo Khadai for LP NU</p>
+	</div>
+</footer>
 
-			</html>
+</html>
